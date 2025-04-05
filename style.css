@@ -27,3 +27,57 @@ h2
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+p
+{
+    color: #555;
+    line-height: 1.6;
+}
+ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+li
+{
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.hover
+{
+    background-color: #0a72b7;
+}
+
+button
+{
+    background-color: #5895d5;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+button:hover
+{
+    background-color: #063f5a;
+}
+
+input[type="text"]
+{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+input[type="text"]:focus
+{
+    border-color: #5895d5;
+    outline: none;
+}
