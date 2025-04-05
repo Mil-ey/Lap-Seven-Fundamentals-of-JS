@@ -8,36 +8,51 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <section id="Mouse Events">
+    <header>
+        <h1>Event Handling in JavaScript</h1>
+        <nav>
+            <ul>
+                <li><a href="#Mouse Events">Mouse Events</a></li>
+                <li><a href="#Keyboard Events">Keyboard Events</a></li>
+                <li><a href="#Form Events">Form Events</a></li>
+                <li><a href="#Focus Events">Focus Events</a></li>
+                <li><a href="#Event Delegation">Event Delegation</a></li>
+            </ul>
+        </nav>
+    </header>
+    // First section is for mouse events//
+      <section id="Mouse Events">
         <h2>Mouse Events</h2>
         <button id="hover-button">Hover over me!</button>
         <p id="mouse-events-output">Mouse Events Output</p>
         </section>  
     
-    
+    // Second section is for keyboard events//
         <section id="Keyboard Events">
         <h2>Keyboard Events</h2>
         <div id="keyboard-events">
-            <input type="text" id="KeyInput"placeholder="Type something...">
+            <input type="text" id="KeyInput" placeholder="Type something...">
         </div>
         <p id="keyboard-events-output">Keyboard Events Output</p>
         </section>
 
+    // Third section is for form events//
         <section id="Form Events">
             <h2>Form Events</h2>
             <form id="form-events">
                 <input type="text" placeholder="Enter your name" required>
                 <button type="submit">Submit</button>
             </form>
+            <p id="form-events-output">Form Events Output</p>
         </section>
-
-        </section id="Focus Events">
+    // Fourth section is for focus events//
+        <section id="Focus Events">
             <h2>Focus Events</h2>
             <div id="focus-events">
-                <input type="text" placeholder="Focus on me!">
+                <input type="text" id= "focusInput" placeholder="Focus on me!">
             </div>
         </section>
-
+// Fifth section is for event delegation//
             <section id="Event Delegation">
                 <h2>Event Delegation</h2>
                 <div class="container" id="event-delegation">
@@ -46,6 +61,7 @@
                     <button class="btn">Button 3</button>
                     <button class="btn">Button 4</button>
                 </div>
+                <p id="event-delegation-output">Event Delegation Output</p>
             </section>
 </body>
 </html>
